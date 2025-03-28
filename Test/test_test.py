@@ -1,7 +1,10 @@
 import time
-
+from selenium.webdriver.support import expected_conditions as EC
 from selenium import webdriver
+from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.wait import WebDriverWait
+
 import Test.csv_Reader as csvReader
 from Objects.Signup_Login import Signup_Login_Locators
 
@@ -62,3 +65,57 @@ def test_link_click():
 
     driver.find_element(By.CSS_SELECTOR,"a[href='/']").click()
     time.sleep(2)
+
+def test_case_insensitive():
+
+    product = {"Blue","Blue Top", "BLUE Top","Top BLuE"}
+    product_search = "Blue"
+
+    for product_search in product:
+        if product_search in product:
+            print("equal")
+        else:
+            print("faluse")
+
+def test_footer():
+
+    driver = webdriver.Chrome()
+    driver.get("https://www.automationexercise.com/products")
+    driver.maximize_window()
+    driver.implicitly_wait(5)
+
+    (ActionChains(driver)
+     .scroll_to_element(driver.find_element(By.CSS_SELECTOR,"div[class='single-widget'] h2" ))
+     .perform())
+
+    driver.find_element(By.ID,"susbscribe_email").send_keys("aki@gmail.com")
+    driver.find_element(By.ID, "subscribe").click()
+
+    assert driver.find_element(By.CSS_SELECTOR, ".alert-success.alert").is_displayed()
+
+def test_add_to_cart():
+    driver = webdriver.Chrome()
+    driver.get("https://www.automationexercise.com/products")
+    driver.maximize_window()
+    driver.implicitly_wait(5)
+
+    action = ActionChains(driver)
+    action.scroll_to_element(driver.find_element(By.XPATH, f"//div[@class='col-sm-4'][2]")).perform()
+    action.move_to_element(driver.find_element(By.XPATH, f"//div[@class='col-sm-4'][2]")).perform()
+
+    driver.find_element(By.XPATH,"//div[@class='col-sm-4'][2]/div/div/div/div/a").click()
+
+    WebDriverWait(self.driver, 5).until(EC.visibility_of_element_located((By.CSS_SELECTOR,".btn.btn-success.close-modal.btn-block")))
+    self.driver.find_element(By.CSS_SELECTOR, element)
+
+    time.sleep(5)
+
+def test_modal():
+    driver = webdriver.Chrome()
+    driver.get("https://the-internet.herokuapp.com/entry_ad")
+    driver.maximize_window()
+    driver.implicitly_wait(5)
+
+    WebDriverWait(driver,2).until(EC.visibility_of_element_located((By.XPATH,"//div[@class='modal']")))
+
+    driver.find_element(By.XPATH,"//p[normalize-space()='Close']").click()

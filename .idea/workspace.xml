@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0dec30d-b8b5-4e5e-a178-f0406ce5439f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SeleniumProject_automationexercise.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objects/Home.py" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/Home.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Objects/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/Menu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Objects/Products.py" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/Products.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/csv_Reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/csv_Reader.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/test_case8.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_case8.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/test_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_test.py" afterDir="false" />
     </list>
@@ -41,9 +39,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_case10.TestMain.executor": "Run",
+    "Python tests.Python tests for test_case10.TestMain.test_footer_email.executor": "Run",
+    "Python tests.Python tests for test_case11.TestMain.executor": "Run",
+    "Python tests.Python tests for test_case12.TestMain.executor": "Run",
+    "Python tests.Python tests for test_case4.TestMain.executor": "Run",
+    "Python tests.Python tests for test_case6.TestMain.executor": "Run",
     "Python tests.Python tests for test_case8.TestMain.executor": "Run",
+    "Python tests.Python tests for test_case9.TestMain.executor": "Run",
+    "Python tests.Python tests for test_test.test_add_to_cart.executor": "Run",
+    "Python tests.Python tests for test_test.test_case_insensitive.executor": "Run",
+    "Python tests.Python tests for test_test.test_footer.executor": "Run",
     "Python tests.Python tests for test_test.test_index.executor": "Run",
     "Python tests.Python tests for test_test.test_link_click.executor": "Run",
+    "Python tests.Python tests for test_test.test_modal.executor": "Run",
     "Python tests.Python tests for test_test.test_product.executor": "Run",
     "Python tests.Python tests for test_test.test_product_list.executor": "Run",
     "RunOnceActivity.git.unshallow": "true",
@@ -51,8 +60,8 @@
     "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_case8.TestMain">
-    <configuration name="Python tests for test_case8.TestMain" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_case12.TestMain">
+    <configuration name="Python tests for test_case11.TestMain" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="automationexercise" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -63,11 +72,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_case8.TestMain&quot;" />
+      <option name="_new_target" value="&quot;test_case11.TestMain&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_test.test_index" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_case12.TestMain" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="automationexercise" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,11 +87,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_test.test_index&quot;" />
+      <option name="_new_target" value="&quot;test_case12.TestMain&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_test.test_link_click" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_case9.TestMain" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="automationexercise" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,11 +102,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_test.test_link_click&quot;" />
+      <option name="_new_target" value="&quot;test_case9.TestMain&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_test.test_product" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_test.test_add_to_cart" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="automationexercise" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -108,11 +117,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_test.test_product&quot;" />
+      <option name="_new_target" value="&quot;test_test.test_add_to_cart&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_test.test_product_list" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_test.test_modal" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="automationexercise" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,17 +132,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_test.test_product_list&quot;" />
+      <option name="_new_target" value="&quot;test_test.test_modal&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_case8.TestMain" />
-        <item itemvalue="Python tests.Python tests for test_test.test_link_click" />
-        <item itemvalue="Python tests.Python tests for test_test.test_product_list" />
-        <item itemvalue="Python tests.Python tests for test_test.test_index" />
-        <item itemvalue="Python tests.Python tests for test_test.test_product" />
+        <item itemvalue="Python tests.Python tests for test_case12.TestMain" />
+        <item itemvalue="Python tests.Python tests for test_test.test_add_to_cart" />
+        <item itemvalue="Python tests.Python tests for test_test.test_modal" />
+        <item itemvalue="Python tests.Python tests for test_case11.TestMain" />
+        <item itemvalue="Python tests.Python tests for test_case9.TestMain" />
       </list>
     </recent_temporary>
   </component>

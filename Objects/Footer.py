@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.expected_conditions import presence_of_element_located
 from selenium.webdriver.support.wait import WebDriverWait
 
-class Home_Locators:
+class Footer_Locators:
 
     footer_element = "footer"
     footer_sub_text = "div[class='single-widget'] h2"

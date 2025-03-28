@@ -20,15 +20,15 @@ class TestMain(InitDriver):
     def test_products(self):
         Products_loc = Products_locators(self.driver)
 
-        Products_loc.explicity_wait_element_xpath(Products_loc.header_all_products)
+        Products_loc.explicity_wait_element_xpath(Products_loc.header_all_products_element)
 
         try:
-            assert Products_loc.element_locator_xpath(Products_loc.header_all_products).is_displayed()
+            assert Products_loc.element_locator_xpath(Products_loc.header_all_products_element).is_displayed()
         except NoSuchElementException as triggeredException:
             print("All Products header is not displayed",triggeredException)
 
-        Products_loc.explicity_wait_element_xpath(Products_loc.product_view)
-        Products_loc.product_view(1)
+        Products_loc.explicity_wait_element_xpath(Products_loc.product_view_specific)
+        Products_loc.product_view_specific(1)
 
     def test_product_details(self):
         ProductDetails_Loc = ProductDetails_Locators(self.driver)

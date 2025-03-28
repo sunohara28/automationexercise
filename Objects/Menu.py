@@ -20,7 +20,7 @@ class Menu_Locators:
         self.driver = driver
 
     def wait_element(self,element):
-        return WebDriverWait(self.driver, 5).until(presence_of_element_located((By.LINK_TEXT, element)))
+        return WebDriverWait(self.driver, 5).until(presence_of_element_located((By.CSS_SELECTOR, element)))
 
     def link_locator(self,link):
         return self.driver.find_element(By.CSS_SELECTOR,link)
