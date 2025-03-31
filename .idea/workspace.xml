@@ -6,11 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="c0dec30d-b8b5-4e5e-a178-f0406ce5439f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Objects/Home.py" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/Home.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/accountInfo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data/accountInfo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/searchProduct.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data/searchProduct.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Objects/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/Menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objects/ProductDetails.py" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/ProductDetails.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Objects/Products.py" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/Products.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/csv_Reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/csv_Reader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/test_case1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_case1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/test_case12.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_case12.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/test_case8.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_case8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/test_case9.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_case9.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/test_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +43,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_case1.TestMain.executor": "Run",
     "Python tests.Python tests for test_case10.TestMain.executor": "Run",
     "Python tests.Python tests for test_case10.TestMain.test_footer_email.executor": "Run",
     "Python tests.Python tests for test_case11.TestMain.executor": "Run",
@@ -49,33 +54,23 @@
     "Python tests.Python tests for test_case9.TestMain.executor": "Run",
     "Python tests.Python tests for test_test.test_add_to_cart.executor": "Run",
     "Python tests.Python tests for test_test.test_case_insensitive.executor": "Run",
+    "Python tests.Python tests for test_test.test_csv_alert_value.executor": "Run",
+    "Python tests.Python tests for test_test.test_details.executor": "Run",
     "Python tests.Python tests for test_test.test_footer.executor": "Run",
     "Python tests.Python tests for test_test.test_index.executor": "Run",
     "Python tests.Python tests for test_test.test_link_click.executor": "Run",
     "Python tests.Python tests for test_test.test_modal.executor": "Run",
     "Python tests.Python tests for test_test.test_product.executor": "Run",
     "Python tests.Python tests for test_test.test_product_list.executor": "Run",
+    "Python tests.Python tests for test_test.test_scroll.executor": "Run",
+    "Python tests.Python tests for test_test.test_view_product_details.executor": "Run",
+    "Python tests.Python tests in test_case1.py.executor": "Run",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
   <component name="RunManager" selected="Python tests.Python tests for test_case12.TestMain">
-    <configuration name="Python tests for test_case11.TestMain" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="automationexercise" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_case11.TestMain&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for test_case12.TestMain" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="automationexercise" />
       <option name="ENV_FILES" value="" />
@@ -91,7 +86,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_case9.TestMain" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_case8.TestMain" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="automationexercise" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,11 +97,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_case9.TestMain&quot;" />
+      <option name="_new_target" value="&quot;test_case8.TestMain&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_test.test_add_to_cart" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_test.test_details" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="automationexercise" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -117,11 +112,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_test.test_add_to_cart&quot;" />
+      <option name="_new_target" value="&quot;test_test.test_details&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_test.test_modal" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_test.test_scroll" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="automationexercise" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -132,17 +127,32 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_test.test_modal&quot;" />
+      <option name="_new_target" value="&quot;test_test.test_scroll&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_test.test_view_product_details" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="automationexercise" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_test.test_view_product_details&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests for test_case12.TestMain" />
-        <item itemvalue="Python tests.Python tests for test_test.test_add_to_cart" />
-        <item itemvalue="Python tests.Python tests for test_test.test_modal" />
-        <item itemvalue="Python tests.Python tests for test_case11.TestMain" />
-        <item itemvalue="Python tests.Python tests for test_case9.TestMain" />
+        <item itemvalue="Python tests.Python tests for test_test.test_view_product_details" />
+        <item itemvalue="Python tests.Python tests for test_test.test_scroll" />
+        <item itemvalue="Python tests.Python tests for test_case8.TestMain" />
+        <item itemvalue="Python tests.Python tests for test_test.test_details" />
       </list>
     </recent_temporary>
   </component>

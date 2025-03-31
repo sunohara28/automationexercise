@@ -11,13 +11,11 @@ class ProductDetails_Locators:
     price_element = "//div[@class='product-information']/span/span"
     availability_element = "//div[@class='product-information']/p[2]"
     condition_element = "//div[@class='product-information']/p[3]"
-    brand_element = "//div[@class='product-information']/p[5]"
+    brand_element = "//div[@class='product-information']/p[4]"
     button_add_to_cart_element = "//div[@class='product-information']/span/button"
 
     def __init__(self,driver):
         self.driver = driver
-
-
 
     def element_xpath_locator(self,element):
         return self.driver.find_element(By.XPATH,element)

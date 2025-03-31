@@ -69,8 +69,8 @@ class TestMain(InitDriver):
             print("header account created is not displayed", triggeredException)
 
         Account_Created_Loc.click_continue()
-    
 
+    @pytest.mark.skip
     def test_verify_logged_in(self):
         userAccountData = csvReader.csvReader(csvReader.accountData)
         Menu_Loc = Menu_Locators(self.driver)

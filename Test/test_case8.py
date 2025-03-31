@@ -1,3 +1,4 @@
+import pytest
 from selenium.common import NoSuchElementException
 
 from Objects.Menu import Menu_Locators
@@ -20,15 +21,15 @@ class TestMain(InitDriver):
     def test_products(self):
         Products_loc = Products_locators(self.driver)
 
-        Products_loc.explicity_wait_element_xpath(Products_loc.header_all_products_element)
+        Products_loc.explicitly_wait_element_css(Products_loc.product_header_element)
 
         try:
-            assert Products_loc.element_locator_xpath(Products_loc.header_all_products_element).is_displayed()
+            assert Products_loc.element_locator_css(Products_loc.product_header_element).is_displayed()
         except NoSuchElementException as triggeredException:
             print("All Products header is not displayed",triggeredException)
 
-        Products_loc.explicity_wait_element_xpath(Products_loc.product_view_specific)
-        Products_loc.product_view_specific(1)
+        Products_loc.view_product_index(5)
+
 
     def test_product_details(self):
         ProductDetails_Loc = ProductDetails_Locators(self.driver)

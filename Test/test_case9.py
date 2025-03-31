@@ -19,7 +19,7 @@ class TestMain(InitDriver):
     def test_product_page(self):
         Products_loc = Products_locators(self.driver)
 
-        Products_loc.explicity_wait_element_css(Products_loc.product_header_element)
+        Products_loc.explicitly_wait_element_css(Products_loc.product_header_element)
 
         try:
             assert Products_loc.element_locator_css(Products_loc.product_header_element).is_displayed()
