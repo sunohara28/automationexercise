@@ -14,4 +14,4 @@ jobs:
 
     steps:
       - name: Hello Step
-        run: print (hello world)
+        run: echo "hello world"
