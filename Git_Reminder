@@ -1,0 +1,32 @@
+Note:
+- Create a .gitignore and specify all files that should not be included in the git repository
+
+Initializing the Local:
+  - Go to Local Directory  
+    > Perform 'Git init'
+      > If there is exisiting code in remote directory, perform 'Git clone <git url>'
+
+
+Starting the Day:
+ - Perform 'Git Pull' from the master branch making sure that your are working at the latest version of the code.
+
+
+Commiting update for the Day:
+[If there is no existing git repository, perform the following:
+  > Create a git repository
+    > copy the git url
+      > perform 'git remote add origin <gir url>
+        > perform 'git remote -v'
+          > git push -u origin <branch name>] : https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github
+  
+- Perform 'Git Add *' or Git add <filename> to add updated/created file.
+    > 'Git Commit -m "<detailed message what was updated or created in the commit>"'
+      > 'Git Status' to make sure that you will be commiting the correct file/s.
+        > Git Push -u origin <branch>
+
+Branch Strategy:
+There should be branch repository where the code can be peer-reviewed or deployed in equivalent environment to perform validations.
+  then once the code was confirmed working, then it will be deployed to the next repository/environment until it goes to prod release.
+  > Test Branch > Test Environment
+    > QA > QA Environment
+      > Prod > Prod Environment
