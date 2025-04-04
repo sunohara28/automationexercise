@@ -1,0 +1,5 @@
+Nameing Coventions:
+  - Elmenent Variables:
+    > <element>_<selectors>_element. (sample: buttonSubmit_xpath_element)
+  - Method:
+    > 
