@@ -1,5 +1,7 @@
-Nameing Coventions:
+Naming Coventions:
   - Elmenent Variables:
     > <element>_<selectors>_element. (sample: buttonSubmit_xpath_element)
-  - Method:
-    > 
+
+Object Methods:
+  - Create a Explicit Wait with argument that can be called by other Method.
+  - To reduce the code repitetive, 'Return the function', so it can also be used in assertion or use the same function for 'click' or 'text' . . etc...
