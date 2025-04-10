@@ -1,7 +1,29 @@
+Apply:
+  - Page Object Model
+  - Object Oriented Programming
+
+Test Data:
+  - Apply a file reader that will contain Test Data.
+    > This must be dynamically readable where the code still run even not all column/field were not populated without any problem.
+    > The file reader should have dynamic file path.
+      > If possible, in the setup of pre-build in pipeline, this file path will be provided. but if not --
+      > Test Case will have it's own Test Data file where it's file path is declared as variable.
+
+Identifying Elements locators:
+  - Use what is the most unique and not prone to problem when element structure change.
+    > ID > NAME > CLASS_NAME > TAG NAME > CSS_SELECTOR > LINK_TEXT > PARTIAL LINK TEXT > XPATH
+
 Naming Coventions:
   - Elmenent Variables:
     > <element>_<selectors>_element. (sample: buttonSubmit_xpath_element)
 
-Object Methods:
-  - Create a Explicit Wait with argument that can be called by other Method.
+Objects:
+  - Create a Explicit Wait method with argument that can be called by other method.
   - To reduce the code repitetive, 'Return the function', so it can also be used in assertion or use the same function for 'click' or 'text' . . etc...
+    (def return_name_element: return driver.find_element(By.ID,"name"))
+
+Test Cases:
+  - Must have only 1 Class
+    > Each Method must be for 1 page and it's specific validation/verification.
+  - Will contain the Element interaction if possible.
+    (return_name_element.sendkeys("<name>"))
