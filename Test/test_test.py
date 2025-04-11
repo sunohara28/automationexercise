@@ -9,8 +9,10 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 
 import Test.csv_Reader as csvReader
+from Objects.Menu import Menu_Locators
 from Objects.Products import Products_locators
 from Objects.Signup_Login import Signup_Login_Locators
+from Test.WebDriver import InitDriver
 
 
 def login_account(email, password):
@@ -123,8 +125,6 @@ def test_scroll():
     time.sleep(5)
     driver.find_element(By.XPATH, f"(//a[contains(text(),'View Product')])[{index}]").click()
 
-
-
 def test_link_click():
     driver = webdriver.Chrome()
     driver.get("https://www.automationexercise.com/products")
@@ -187,3 +187,10 @@ def test_modal():
     WebDriverWait(driver,2).until(EC.visibility_of_element_located((By.XPATH,"//div[@class='modal']")))
 
     driver.find_element(By.XPATH,"//p[normalize-space()='Close']").click()
+
+
+class TestMain(InitDriver):
+    def test_homepage(self):
+        Menu_Loc = Menu_Locators(self.driver)
+
+        Menu_Loc.link_locator1(Menu_Loc.link_signup_login)

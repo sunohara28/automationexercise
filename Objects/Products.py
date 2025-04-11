@@ -10,7 +10,6 @@ from selenium.webdriver import ActionChains
 
 class Products_locators:
 
-
     product_header_element = ".title.text-center"
     product_name_element = "//div[@class='col-sm-4']/div/div/div/p"
     product_add_element = "//div[@class='col-sm-4']/div/div/div/a"

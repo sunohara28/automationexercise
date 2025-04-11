@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support.expected_conditions import presence_of_element_located
+from selenium.webdriver.support import expected_conditions as EC
 
 class Menu_Locators:
 
@@ -19,12 +19,12 @@ class Menu_Locators:
     def __init__(self,driver):
         self.driver = driver
 
-    def wait_element(self,element):
-        return WebDriverWait(self.driver, 5).until(presence_of_element_located((By.CSS_SELECTOR, element)))
+    def wait_element_css(self,element):
+        WebDriverWait(self.driver, 5).until(EC.visibility_of_element_located((By.CSS_SELECTOR, element)))
 
-    def link_locator(self,link):
-        WebDriverWait(self.driver, 5).until(presence_of_element_located((By.CSS_SELECTOR, link)))
-        return self.driver.find_element(By.CSS_SELECTOR,link)
+    def link_locator(self,element):
+        Menu_Locators.wait_element_css(self, element)
+        return self.driver.find_element(By.CSS_SELECTOR,element)
 
     def logged_in(self):
         return self.driver.find_element(By.XPATH, Menu_Locators.logged_in_locator)

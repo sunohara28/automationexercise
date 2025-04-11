@@ -13,7 +13,7 @@ class TestMain(InitDriver):
     def test_homepage(self):
         Menu_Loc = Menu_Locators(self.driver)
 
-        Menu_Loc.wait_element(Menu_Loc.link_signup_login)
+        Menu_Loc.wait_element_css(Menu_Loc.link_signup_login)
         assert Menu_Loc.link_locator(Menu_Loc.link_signup_login).is_displayed()
         Menu_Loc.link_locator(Menu_Loc.link_signup_login).click()
 

@@ -12,7 +12,7 @@ class TestMain(InitDriver):
     def test_homepage(self):
         Menu_Loc = Menu_Locators(self.driver)
 
-        Menu_Loc.wait_element(Menu_Loc.link_contact_us)
+        Menu_Loc.wait_element_css(Menu_Loc.link_contact_us)
 
         try:
             assert Menu_Loc.link_locator(Menu_Loc.link_contact_us).is_displayed()
