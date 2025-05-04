@@ -5,13 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0dec30d-b8b5-4e5e-a178-f0406ce5439f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Objects/Contact_us.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Objects/Home.py" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/Home.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/accountInfo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data/accountInfo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/contactus.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data/contactus.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objects/Account_created.py" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/Account_created.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objects/Account_deleted.py" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/Account_deleted.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objects/ContactUs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objects/Footer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/Footer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Objects/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/Menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objects/ProductDetails.py" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/Product_details.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Objects/Products.py" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/Products.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objects/Signup_Login.py" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/Signup_Login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objects/Signup_acc_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/Signup_acc_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objects/TestCases.py" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/Test_cases.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/test_case1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_case1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/test_case10.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_case10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/test_case11.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_case11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/test_case12.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_case12_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/test_case2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_case2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/test_case3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_case3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/test_case4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_case4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/test_case5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_case5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/test_case6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_case6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/test_case7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_case7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/test_case8.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_case8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/test_case9.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_case9.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/test_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,38 +57,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for test_case1.TestMain.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_case10.TestMain.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_case10.TestMain.test_footer_email.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_case11.TestMain.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_case12.TestMain.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_case4.TestMain.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_case6.TestMain.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_case8.TestMain.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_case9.TestMain.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_test.TestMain.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_test.test_add_to_cart.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_test.test_case_insensitive.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_test.test_csv_alert_value.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_test.test_details.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_test.test_footer.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_test.test_index.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_test.test_link_click.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_test.test_modal.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_test.test_product.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_test.test_product_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_test.test_scroll.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_test.test_view_product_details.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_case1.py.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_Case12.TestMain.executor": "Run",
+    "Python tests.Python tests for test_Case12.TestMain.test_products.executor": "Run",
+    "Python tests.Python tests for test_case1.TestMain.executor": "Run",
+    "Python tests.Python tests for test_case10.TestMain.executor": "Run",
+    "Python tests.Python tests for test_case10.TestMain.test_footer_email.executor": "Run",
+    "Python tests.Python tests for test_case11.TestMain.executor": "Run",
+    "Python tests.Python tests for test_case12.TestMain.executor": "Run",
+    "Python tests.Python tests for test_case4.TestMain.executor": "Run",
+    "Python tests.Python tests for test_case6.TestMain.executor": "Run",
+    "Python tests.Python tests for test_case6_Contact_ Us_Form.TestMain.executor": "Run",
+    "Python tests.Python tests for test_case7.TestMain.executor": "Run",
+    "Python tests.Python tests for test_case8.TestMain.executor": "Run",
+    "Python tests.Python tests for test_case9.TestMain.executor": "Run",
+    "Python tests.Python tests for test_test.TestMain.executor": "Run",
+    "Python tests.Python tests for test_test.test_Add_to_cart.executor": "Run",
+    "Python tests.Python tests for test_test.test_add_to_cart.executor": "Run",
+    "Python tests.Python tests for test_test.test_case_insensitive.executor": "Run",
+    "Python tests.Python tests for test_test.test_csv_alert_value.executor": "Run",
+    "Python tests.Python tests for test_test.test_details.executor": "Run",
+    "Python tests.Python tests for test_test.test_footer.executor": "Run",
+    "Python tests.Python tests for test_test.test_index.executor": "Run",
+    "Python tests.Python tests for test_test.test_link_click.executor": "Run",
+    "Python tests.Python tests for test_test.test_modal.executor": "Run",
+    "Python tests.Python tests for test_test.test_mult_args.executor": "Run",
+    "Python tests.Python tests for test_test.test_product.executor": "Run",
+    "Python tests.Python tests for test_test.test_product_list.executor": "Run",
+    "Python tests.Python tests for test_test.test_scroll.executor": "Run",
+    "Python tests.Python tests for test_test.test_view_product_details.executor": "Run",
+    "Python tests.Python tests in test_case1.py.executor": "Run",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
-  <component name="RunManager" selected="Python tests.Python tests for test_case1.TestMain">
-    <configuration name="Python tests for test_case12.TestMain" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="Python tests.Python tests for test_Case12.TestMain">
+    <configuration name="Python tests for test_Case12.TestMain" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="automationexercise" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -80,11 +106,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_case12.TestMain&quot;" />
+      <option name="_new_target" value="&quot;test_Case12.TestMain&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_case1.TestMain" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_Case12.TestMain.test_products" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="automationexercise" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,11 +121,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_case1.TestMain&quot;" />
+      <option name="_new_target" value="&quot;test_Case12.TestMain.test_products&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_test.TestMain" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_case8.TestMain" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="automationexercise" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,11 +136,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_test.TestMain&quot;" />
+      <option name="_new_target" value="&quot;test_case8.TestMain&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_test.test_scroll" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_test.test_Add_to_cart" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="automationexercise" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,11 +151,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_test.test_scroll&quot;" />
+      <option name="_new_target" value="&quot;test_test.test_Add_to_cart&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_test.test_view_product_details" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_test.test_index" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="automationexercise" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,17 +166,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_test.test_view_product_details&quot;" />
+      <option name="_new_target" value="&quot;test_test.test_index&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_case1.TestMain" />
-        <item itemvalue="Python tests.Python tests for test_test.TestMain" />
-        <item itemvalue="Python tests.Python tests for test_case12.TestMain" />
-        <item itemvalue="Python tests.Python tests for test_test.test_view_product_details" />
-        <item itemvalue="Python tests.Python tests for test_test.test_scroll" />
+        <item itemvalue="Python tests.Python tests for test_Case12.TestMain" />
+        <item itemvalue="Python tests.Python tests for test_test.test_index" />
+        <item itemvalue="Python tests.Python tests for test_Case12.TestMain.test_products" />
+        <item itemvalue="Python tests.Python tests for test_test.test_Add_to_cart" />
+        <item itemvalue="Python tests.Python tests for test_case8.TestMain" />
       </list>
     </recent_temporary>
   </component>

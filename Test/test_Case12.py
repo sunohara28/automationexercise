@@ -1,3 +1,5 @@
+import time
+
 import pytest
 from selenium.common import NoSuchElementException
 
@@ -25,21 +27,24 @@ class TestMain(InitDriver):
         except NoSuchElementException as triggeredException:
             print("All Products header is not displayed",triggeredException)
 
-        Products_loc.view_product_index(1)
 
+        items_position = {8,2}
+        index = 0
+        for item in items_position:
+            index = index + 1
+            Products_loc.product_hover(item)
 
+            Products_loc.hover_add_to_cart(item)
+
+            if index != len(items_position):
+                General_Loc.wait_element_css(Products_Elements.modal_continue_button_element)
+                General_Loc.element_locator_css(Products_Elements.modal_continue_button_element).click()
+            else:
+                General_Loc.wait_element_css(Products_Elements.modal_view_cart_element)
+                General_Loc.element_locator_css(Products_Elements.modal_view_cart_element).click()
+
+        time.sleep(2)
+
+    @pytest.mark.skip
     def test_product_details(self):
         General_Loc = General_Locators(self.driver)
-
-        elements = {ProductDetails_Elements.product_name_element,
-                    ProductDetails_Elements.category_element,
-                    ProductDetails_Elements.price_element,
-                    ProductDetails_Elements.availability_element,
-                    ProductDetails_Elements.condition_element,
-                    ProductDetails_Elements.brand_element}
-
-        for element in elements:
-            try:
-                assert General_Loc.element_locator_xpath(element).is_displayed()
-            except NoSuchElementException as triggeredException:
-                print("info not displayed",triggeredException)

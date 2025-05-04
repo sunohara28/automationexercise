@@ -27,6 +27,17 @@ def login_account(email, password):
 def test_args():
     login_account("aki@gmail.com", "Password1")
 
+def multiple_argument(*args):
+
+    list_args = args
+
+    for arg in list_args:
+        print(arg)
+
+def test_mult_args():
+    multiple_argument("a","b","c")
+
+
 
 def test_csv_alert_value():
     Products = csvReader.csvReader(csvReader.searchProductData)
@@ -47,8 +58,18 @@ def test_index():
 
     list_prod = {2, 4, 6}
 
+    a = 0
     for index in list_prod:
-        print(index)
+        a = a + 1
+
+        print("item add to cart", index)
+
+        if a != len(list_prod):
+            print("continue")
+        else:
+            print("completed")
+
+
 
 def args_list(*args):
     list_index = {*args}
@@ -161,22 +182,25 @@ def test_footer():
 
     assert driver.find_element(By.CSS_SELECTOR, ".alert-success.alert").is_displayed()
 
-def test_add_to_cart():
+def add_to_cart(index):
     driver = webdriver.Chrome()
     driver.get("https://www.automationexercise.com/products")
     driver.maximize_window()
     driver.implicitly_wait(5)
 
     action = ActionChains(driver)
-    action.scroll_to_element(driver.find_element(By.XPATH, f"//div[@class='col-sm-4'][2]")).perform()
-    action.move_to_element(driver.find_element(By.XPATH, f"//div[@class='col-sm-4'][2]")).perform()
 
-    driver.find_element(By.XPATH,"//div[@class='col-sm-4'][2]/div/div/div/div/a").click()
+    scroll_origin = ScrollOrigin.from_element(driver.find_element(By.XPATH, f"//div[@class='col-sm-4'][{index}]"))
+    action.scroll_from_origin(scroll_origin, 0, 200).perform()
 
-    WebDriverWait(self.driver, 5).until(EC.visibility_of_element_located((By.CSS_SELECTOR,".btn.btn-success.close-modal.btn-block")))
-    self.driver.find_element(By.CSS_SELECTOR, element)
+    action.move_to_element(driver.find_element(By.XPATH, f"//div[@class='col-sm-4'][{index}]")).perform()
 
-    time.sleep(5)
+
+
+def test_Add_to_cart():
+    add_to_cart(8)
+
+    time.sleep(2)
 
 def test_modal():
     driver = webdriver.Chrome()
