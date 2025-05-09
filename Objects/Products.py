@@ -63,10 +63,17 @@ class Products_locators:
         action.scroll_from_origin(scroll_origin, 0, 200).perform()
 
         time.sleep(1)
+
         action.move_to_element(self.driver.find_element(By.XPATH,f"//div[@class='col-sm-4'][{index}]")).perform()
 
     def hover_add_to_cart(self,index):
+        action = ActionChains(self.driver)
+
         WebDriverWait(self.driver, 5).until(EC.visibility_of_element_located((By.XPATH, f"//div[@class='overlay-content']/a[@data-product-id='{index}']")))
+        scroll_origin = ScrollOrigin.from_element(
+            self.driver.find_element(By.XPATH, f"//div[@class='overlay-content']/a[@data-product-id='{index}']"))
+        action.scroll_from_origin(scroll_origin, 0, 200).perform()
+
         self.driver.find_element(By.XPATH, f"//div[@class='overlay-content']/a[@data-product-id='{index}']").click()
 
     def default_add_to_cart(self,index):

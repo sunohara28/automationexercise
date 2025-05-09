@@ -40,7 +40,7 @@ def test_mult_args():
 
 
 def test_csv_alert_value():
-    Products = csvReader.csvReader(csvReader.searchProductData)
+    Products = csvReader.csvReader(csvReader.searchProductData_viaName)
 
     value = []
 
@@ -53,6 +53,14 @@ def test_csv_alert_value():
     for value in value:
         print(value['Product_Name'])
 
+def test_csv_index():
+    products_csv = csvReader.csvReader(csvReader.searchProductData_viaIndex)
+    items_position = []
+    for Product in products_csv:
+        items_position.append(Product)
+
+    for item in items_position:
+        print (item['product_index'])
 
 def test_index():
 
@@ -62,12 +70,7 @@ def test_index():
     for index in list_prod:
         a = a + 1
 
-        print("item add to cart", index)
-
-        if a != len(list_prod):
-            print("continue")
-        else:
-            print("completed")
+        print(f"item add to cart-{index}")
 
 
 

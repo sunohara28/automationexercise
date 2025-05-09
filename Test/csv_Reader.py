@@ -2,7 +2,8 @@ import csv
 
 accountData = "../Data/accountInfo.csv"
 contactUsData = "../Data/contactus.csv"
-searchProductData = "../Data/searchProduct.csv"
+searchProductData_viaName = "../Data/searchProduct_viaName.csv"
+searchProductData_viaIndex = "../Data/searchProduct_viaIndex.csv"
 
 def csvReader(csvData_path):
     data = []

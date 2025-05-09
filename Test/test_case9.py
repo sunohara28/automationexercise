@@ -24,13 +24,13 @@ class TestMain(InitDriver):
             print("All Products header is not displayed",triggeredException)
 
     def test_search_product(self):
-        searchProductData = csvReader.csvReader(csvReader.searchProductData)
+        searchProductData = csvReader.csvReader(csvReader.searchProductData_viaName)
         Products_loc = Products_locators(self.driver)
 
         Products_loc.search_product(searchProductData[0]['Product_Name'])
 
     def test_searched_products(self):
-        searchProductData = csvReader.csvReader(csvReader.searchProductData)
+        searchProductData = csvReader.csvReader(csvReader.searchProductData_viaName)
         search_product = searchProductData[0]['Product_Name']
         Products_loc = Products_locators(self.driver)
 

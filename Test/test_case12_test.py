@@ -1,7 +1,6 @@
 import time
 
 import Test.csv_Reader as csvReader
-from selenium.common import NoSuchElementException
 
 from Objects.General_Locator import General_Locators
 from Objects.Menu import Menu_Locators, Menu_Elements
@@ -22,7 +21,7 @@ class TestMain(InitDriver):
         Menu_Loc = Menu_Locators(self.driver)
         Products_loc = Products_locators(self.driver)
         ProductDetails_Loc = ProductDetails_Locators(self.driver)
-        products_csv = csvReader.csvReader(csvReader.searchProductData)
+        products_csv = csvReader.csvReader(csvReader.searchProductData_viaName)
 
 
         available = "In Stock"
