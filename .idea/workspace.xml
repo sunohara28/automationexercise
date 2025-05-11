@@ -6,14 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c0dec30d-b8b5-4e5e-a178-f0406ce5439f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/searchProduct.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data/searchProduct_viaName.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Objects/Products.py" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/Products.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Objects/Shopping_cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/Shopping_cart.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/csv_Reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/csv_Reader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/test_Case12.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_Case12.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/test_case12_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_case12_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/test_case9.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_case9.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/test_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,44 +31,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_Case12.TestMain.executor": "Run",
-    "Python tests.Python tests for test_Case12.TestMain.test_products.executor": "Run",
-    "Python tests.Python tests for test_case1.TestMain.executor": "Run",
-    "Python tests.Python tests for test_case10.TestMain.executor": "Run",
-    "Python tests.Python tests for test_case10.TestMain.test_footer_email.executor": "Run",
-    "Python tests.Python tests for test_case11.TestMain.executor": "Run",
-    "Python tests.Python tests for test_case12.TestMain.executor": "Run",
-    "Python tests.Python tests for test_case4.TestMain.executor": "Run",
-    "Python tests.Python tests for test_case6.TestMain.executor": "Run",
-    "Python tests.Python tests for test_case6_Contact_ Us_Form.TestMain.executor": "Run",
-    "Python tests.Python tests for test_case7.TestMain.executor": "Run",
-    "Python tests.Python tests for test_case8.TestMain.executor": "Run",
-    "Python tests.Python tests for test_case9.TestMain.executor": "Run",
-    "Python tests.Python tests for test_test.TestMain.executor": "Run",
-    "Python tests.Python tests for test_test.test_Add_to_cart.executor": "Run",
-    "Python tests.Python tests for test_test.test_add_to_cart.executor": "Run",
-    "Python tests.Python tests for test_test.test_case_insensitive.executor": "Run",
-    "Python tests.Python tests for test_test.test_csv_alert_value.executor": "Run",
-    "Python tests.Python tests for test_test.test_csv_index.executor": "Run",
-    "Python tests.Python tests for test_test.test_details.executor": "Run",
-    "Python tests.Python tests for test_test.test_footer.executor": "Run",
-    "Python tests.Python tests for test_test.test_index.executor": "Run",
-    "Python tests.Python tests for test_test.test_link_click.executor": "Run",
-    "Python tests.Python tests for test_test.test_modal.executor": "Run",
-    "Python tests.Python tests for test_test.test_mult_args.executor": "Run",
-    "Python tests.Python tests for test_test.test_product.executor": "Run",
-    "Python tests.Python tests for test_test.test_product_list.executor": "Run",
-    "Python tests.Python tests for test_test.test_scroll.executor": "Run",
-    "Python tests.Python tests for test_test.test_view_product_details.executor": "Run",
-    "Python tests.Python tests in test_case1.py.executor": "Run",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_Case12.TestMain.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Case12.TestMain.test_products.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_case1.TestMain.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_case10.TestMain.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_case10.TestMain.test_footer_email.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_case11.TestMain.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_case12.TestMain.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_case4.TestMain.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_case6.TestMain.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_case6_Contact_ Us_Form.TestMain.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_case7.TestMain.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_case8.TestMain.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_case9.TestMain.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_test.TestMain.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_test.test_Add_to_cart.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_test.test_add_to_cart.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_test.test_case_insensitive.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_test.test_csv_alert_value.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_test.test_csv_index.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_test.test_details.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_test.test_footer.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_test.test_index.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_test.test_link_click.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_test.test_modal.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_test.test_mult_args.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_test.test_product.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_test.test_product_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_test.test_scroll.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_test.test_view_product_details.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_case1.py.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python tests.Python tests for test_Case12.TestMain">
     <configuration name="Python tests for test_Case12.TestMain" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="automationexercise" />
