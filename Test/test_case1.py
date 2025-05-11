@@ -96,12 +96,10 @@ class TestMain(InitDriver):
         except NoSuchElementException as triggeredException:
             print("Logged in displayed error ",triggeredException)
 
-
     def test_delete_account(self):
         General_Loc = General_Locators(self.driver)
 
         General_Loc.element_locator_css(Menu_Elements.link_delete_account).click()
-
 
     def test_verify_acc_del(self):
         General_Loc = General_Locators(self.driver)
