@@ -9,8 +9,10 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 
 import Test.csv_Reader as csvReader
+from Objects.Menu import Menu_Locators
 from Objects.Products import Products_locators
 from Objects.Signup_Login import Signup_Login_Locators
+from Test.WebDriver import InitDriver
 
 
 def login_account(email, password):
@@ -25,9 +27,20 @@ def login_account(email, password):
 def test_args():
     login_account("aki@gmail.com", "Password1")
 
+def multiple_argument(*args):
+
+    list_args = args
+
+    for arg in list_args:
+        print(arg)
+
+def test_mult_args():
+    multiple_argument("a","b","c")
+
+
 
 def test_csv_alert_value():
-    Products = csvReader.csvReader(csvReader.searchProductData)
+    Products = csvReader.csvReader(csvReader.searchProductData_viaName)
 
     value = []
 
@@ -40,13 +53,26 @@ def test_csv_alert_value():
     for value in value:
         print(value['Product_Name'])
 
+def test_csv_index():
+    products_csv = csvReader.csvReader(csvReader.searchProductData_viaIndex)
+    items_position = []
+    for Product in products_csv:
+        items_position.append(Product)
+
+    for item in items_position:
+        print (item['product_index'])
 
 def test_index():
 
     list_prod = {2, 4, 6}
 
+    a = 0
     for index in list_prod:
-        print(index)
+        a = a + 1
+
+        print(f"item add to cart-{index}")
+
+
 
 def args_list(*args):
     list_index = {*args}
@@ -123,8 +149,6 @@ def test_scroll():
     time.sleep(5)
     driver.find_element(By.XPATH, f"(//a[contains(text(),'View Product')])[{index}]").click()
 
-
-
 def test_link_click():
     driver = webdriver.Chrome()
     driver.get("https://www.automationexercise.com/products")
@@ -161,22 +185,25 @@ def test_footer():
 
     assert driver.find_element(By.CSS_SELECTOR, ".alert-success.alert").is_displayed()
 
-def test_add_to_cart():
+def add_to_cart(index):
     driver = webdriver.Chrome()
     driver.get("https://www.automationexercise.com/products")
     driver.maximize_window()
     driver.implicitly_wait(5)
 
     action = ActionChains(driver)
-    action.scroll_to_element(driver.find_element(By.XPATH, f"//div[@class='col-sm-4'][2]")).perform()
-    action.move_to_element(driver.find_element(By.XPATH, f"//div[@class='col-sm-4'][2]")).perform()
 
-    driver.find_element(By.XPATH,"//div[@class='col-sm-4'][2]/div/div/div/div/a").click()
+    scroll_origin = ScrollOrigin.from_element(driver.find_element(By.XPATH, f"//div[@class='col-sm-4'][{index}]"))
+    action.scroll_from_origin(scroll_origin, 0, 200).perform()
 
-    WebDriverWait(self.driver, 5).until(EC.visibility_of_element_located((By.CSS_SELECTOR,".btn.btn-success.close-modal.btn-block")))
-    self.driver.find_element(By.CSS_SELECTOR, element)
+    action.move_to_element(driver.find_element(By.XPATH, f"//div[@class='col-sm-4'][{index}]")).perform()
 
-    time.sleep(5)
+
+
+def test_Add_to_cart():
+    add_to_cart(8)
+
+    time.sleep(2)
 
 def test_modal():
     driver = webdriver.Chrome()
@@ -187,3 +214,10 @@ def test_modal():
     WebDriverWait(driver,2).until(EC.visibility_of_element_located((By.XPATH,"//div[@class='modal']")))
 
     driver.find_element(By.XPATH,"//p[normalize-space()='Close']").click()
+
+
+class TestMain(InitDriver):
+    def test_homepage(self):
+        Menu_Loc = Menu_Locators(self.driver)
+
+        Menu_Loc.link_locator1(Menu_Loc.link_signup_login)

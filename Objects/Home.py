@@ -41,6 +41,3 @@ class Home_Locators:
         (ActionChains(self.driver)
          .scroll_to_element(self.driver.find_element(By.ID,element))
          .perform())
-
-    def alert_handler(self):
-        ...

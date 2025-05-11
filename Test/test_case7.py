@@ -1,22 +1,21 @@
+from Objects.General_Locator import General_Locators
 from Test.WebDriver import InitDriver
-from Objects.Menu import Menu_Locators
-from Objects.TestCases import TestCase_Locators
+from Objects.Menu import Menu_Elements
+from Objects.Test_cases import TestCase_Elements
 from selenium.common import NoSuchElementException
 
 class TestMain(InitDriver):
     def test_homepage(self):
-        Menu_Loc = Menu_Locators(self.driver)
+        General_Loc = General_Locators(self.driver)
 
-        assert Menu_Loc.link_locator(Menu_Loc.link_test_case).is_displayed()
-        Menu_Loc.link_locator(Menu_Loc.link_test_case).click()
+        General_Loc.wait_element_css(Menu_Elements.link_test_case)
+        General_Loc.element_locator_css(Menu_Elements.link_test_case).click()
 
     def test_testcase(self):
-        TestCase_Loc = TestCase_Locators(self.driver)
-
-        TestCase_Loc.wait_element_XPATH(TestCase_Loc.header_testcase)
+        General_Loc = General_Locators(self.driver)
 
         try:
-            assert TestCase_Loc.header_locator(TestCase_Loc.header_testcase).is_displayed()
+            assert General_Loc.element_locator_xpath(TestCase_Elements.header_testcase).is_displayed()
         except NoSuchElementException as triggeredException:
             print("Test Case header is not displayed",triggeredException)
 

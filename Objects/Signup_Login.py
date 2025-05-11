@@ -1,9 +1,9 @@
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.expected_conditions import presence_of_element_located
+from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 
 
-class Signup_Login_Locators:
+class Signup_Login_Elements:
 
     header_login = "div[class='login-form'] h2"
     header_signup = "div[class='signup-form'] h2"
@@ -17,31 +17,19 @@ class Signup_Login_Locators:
     error_email_already_exist = "//p[text()='Email Address already exist!']"
     error_incorrect_credentials = "//p[text()='Your email or password is incorrect!']"
 
+class Signup_Login_Locators:
+
     def __init__(self,driver):
         self.driver = driver
 
-    def wait_element(self,element):
-        return WebDriverWait(self.driver,5).until(presence_of_element_located((By.CSS_SELECTOR,element)))
+    def login_account(self,email,password):
+        self.driver.find_element(By.CSS_SELECTOR, Signup_Login_Elements.field_login_email).send_keys(email)
+        self.driver.find_element(By.CSS_SELECTOR, Signup_Login_Elements.field_login_pass).send_keys(password)
 
-    def wait_error_element(self,element):
-        return WebDriverWait(self.driver,5).until(presence_of_element_located((By.XPATH,element)))
-    
-    def header_locator(self,header):
-        return self.driver.find_element(By.CSS_SELECTOR, header)
+    def signup_account(self,name,email):
+        self.driver.find_element(By.CSS_SELECTOR, Signup_Login_Elements.field_signup_name).send_keys(name)
+        self.driver.find_element(By.CSS_SELECTOR, Signup_Login_Elements.field_signup_email).send_keys(email)
 
-    def error_message(self,error_message):
-        return self.driver.find_element(By.XPATH,error_message)
-
-    def login_signup_account(self, field1,value1,field2,value2):
-
-        account_info_fields = [(field1, value1),
-                               (field2, value2)]
-
-        for field, value in account_info_fields:
-            self.driver.find_element(By.CSS_SELECTOR, field).send_keys(value)
-
-    def submit(self,button):
-        return self.driver.find_element(By.CSS_SELECTOR,button).click()
 
 
 

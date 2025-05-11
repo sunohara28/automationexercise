@@ -1,30 +1,27 @@
 import time
 
 import Test.csv_Reader as csvReader
-from selenium.common import NoSuchElementException
-from Objects.Menu import Menu_Locators
-from Objects.ProductDetails import ProductDetails_Locators
-from Objects.Products import Products_locators
+
+from Objects.General_Locator import General_Locators
+from Objects.Menu import Menu_Locators, Menu_Elements
+from Objects.Product_details import ProductDetails_Locators
+from Objects.Products import Products_locators, Products_Elements
 from Test.WebDriver import InitDriver
 
 
 class TestMain(InitDriver):
     def test_product_page(self):
-        Menu_Loc = Menu_Locators(self.driver)
+        General_Loc = General_Locators(self.driver)
 
-        try:
-            assert Menu_Loc.link_locator(Menu_Loc.link_products).is_displayed()
-        except NoSuchElementException as triggeredException:
-            print("Link not displayed",triggeredException)
-
-        Menu_Loc.link_locator(Menu_Loc.link_products).click()
-        self.driver.implicitly_wait(5)
+        General_Loc.wait_element_css(Menu_Elements.link_products)
+        General_Loc.element_locator_css(Menu_Elements.link_products).click()
 
     def test_add_to_cart(self):
+        General_Loc = General_Locators(self.driver)
         Menu_Loc = Menu_Locators(self.driver)
         Products_loc = Products_locators(self.driver)
         ProductDetails_Loc = ProductDetails_Locators(self.driver)
-        products_csv = csvReader.csvReader(csvReader.searchProductData)
+        products_csv = csvReader.csvReader(csvReader.searchProductData_viaName)
 
 
         available = "In Stock"
@@ -37,7 +34,7 @@ class TestMain(InitDriver):
             prod_name = value['Product_Name']
             Products_loc.search_product(prod_name) #search the product
 
-            products_name = Products_loc.product_list(Products_loc.product_name_element)
+            products_name = Products_loc.product_list(Products_Elements.product_name_element)
             # return the list of Product that has the searched product name
 
             for index, product in enumerate(products_name, start = 1):
@@ -51,11 +48,11 @@ class TestMain(InitDriver):
                         Products_loc.element_locator_xpath(Products_loc.product_details_add_button).click()
                         Products_loc.modal_button_click(Products_loc.modal_continue_button_element)
 
-                    Menu_Loc.link_locator(Menu_Loc.link_products).click()
+                    Menu_Loc.element_locator_css(Menu_Loc.link_products).click()
                     break
-            Menu_Loc.link_locator(Menu_Loc.link_products).click()
+            Menu_Loc.element_locator_css(Menu_Loc.link_products).click()
 
-        Menu_Loc.link_locator(Menu_Loc.link_cart).click()
+        Menu_Loc.element_locator_css(Menu_Loc.link_cart).click()
 
 
 
