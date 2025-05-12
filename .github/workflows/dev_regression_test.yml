@@ -28,4 +28,4 @@ jobs:
         pip install -r requirement.txt
     - name: Test with pytest
       run: |
-        pytest test_case1.py
+        pytest Test\test_case1.py
