@@ -1,4 +1,7 @@
+from Test.WebDriver import InitDriver
 
 
-def test_print():
-    print("tang ina naman anung meron")
+class TestMain(InitDriver):
+
+    def test_print(self):
+        print("Hello")

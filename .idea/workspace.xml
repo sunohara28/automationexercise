@@ -6,13 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c0dec30d-b8b5-4e5e-a178-f0406ce5439f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/dev_regression_test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/dev_regression_test.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/automationexercise.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/automationexercise.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/accountInfo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Data/accountInfo.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/contactus.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Data/contactus.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/searchProduct_viaIndex.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Data/searchProduct_viaIndex.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/searchProduct_viaName.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Data/searchProduct_viaName.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/test_pytest1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_pytest1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +51,7 @@
     "Python tests.Python tests for test_case7.TestMain.executor": "Run",
     "Python tests.Python tests for test_case8.TestMain.executor": "Run",
     "Python tests.Python tests for test_case9.TestMain.executor": "Run",
+    "Python tests.Python tests for test_pytest1.TestMain.executor": "Run",
     "Python tests.Python tests for test_test.TestMain.executor": "Run",
     "Python tests.Python tests for test_test.test_Add_to_cart.executor": "Run",
     "Python tests.Python tests for test_test.test_add_to_cart.executor": "Run",
@@ -87,12 +83,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\okumu\Documents\PyCharmProjects\automationexercise" />
       <recent name="C:\Users\okumu\Documents\PyCharmProjects\automationexercise\Test" />
       <recent name="C:\Users\okumu\Documents\PyCharmProjects\automationexercise\Data" />
-      <recent name="C:\Users\okumu\Documents\PyCharmProjects\automationexercise" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_case1.TestMain">
+  <component name="RunManager" selected="Python tests.Python tests for test_pytest1.TestMain">
     <configuration name="Python tests for Test.test_case1.TestMain" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="automationexercise" />
       <option name="ENV_FILES" value="" />
@@ -120,6 +116,21 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_case1.TestMain&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_pytest1.TestMain" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="automationexercise" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_pytest1.TestMain&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -178,10 +189,12 @@
       <item itemvalue="Python tests.Python tests in test_case1.py" />
       <item itemvalue="Python tests.Python tests for Test.test_case1.TestMain" />
       <item itemvalue="Python tests.Python tests for test_case1.TestMain" />
+      <item itemvalue="Python tests.Python tests for test_pytest1.TestMain" />
       <item itemvalue="Python tests.pytest for Test.test_case1.TestMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_pytest1.TestMain" />
         <item itemvalue="Python tests.Python tests for test_case1.TestMain" />
         <item itemvalue="Python tests.Python tests for Test.test_case1.TestMain" />
         <item itemvalue="Python tests.pytest for Test.test_case1.TestMain" />
