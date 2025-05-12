@@ -1,7 +1,7 @@
 from selenium.common import NoSuchElementException
 import Test.csv_Reader as csvReader
 from Objects.General_Locator import General_Locators
-from Objects.Menu import Menu_Locators, Menu_Elements
+from Objects.Menu import Menu_Elements
 from Objects.Products import Products_locators, Products_Elements
 from Test.WebDriver import InitDriver
 

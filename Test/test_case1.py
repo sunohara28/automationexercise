@@ -11,6 +11,7 @@ from Objects.Account_deleted import Account_Deleted_Elements
 
 
 class TestMain(InitDriver):
+
     def test_navigate_to_signup(self):
         General_Loc = General_Locators(self.driver)
 

@@ -1,13 +1,9 @@
-import pytest
 from selenium.common import NoSuchElementException
 import Test.csv_Reader as csvReader
 from Objects.General_Locator import General_Locators
 from Test.WebDriver import InitDriver
 from Objects.Menu import Menu_Locators, Menu_Elements
 from Objects.Signup_Login import Signup_Login_Locators, Signup_Login_Elements
-from Objects.Signup_acc_info import Signup_acc_Locators
-from Objects.Account_created import Account_Created_Locators
-from Objects.Account_deleted import Account_Deleted_Locators
 
 class TestMain(InitDriver):
     def test_navigate_to_login(self):
