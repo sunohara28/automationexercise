@@ -1,3 +1,4 @@
+import pytest
 from selenium.common import NoSuchElementException
 import Test.csv_Reader as csvReader
 from Test.WebDriver import InitDriver
