@@ -6,6 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="c0dec30d-b8b5-4e5e-a178-f0406ce5439f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/dev_regression_test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/dev_regression_test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/automationexercise.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/automationexercise.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/accountInfo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Data/accountInfo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/contactus.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Data/contactus.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/searchProduct_viaIndex.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Data/searchProduct_viaIndex.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/searchProduct_viaName.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Data/searchProduct_viaName.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +28,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -72,9 +82,16 @@
     "git-widget-placeholder": "dev",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/okumu/Documents/PyCharmProjects/automationexercise/Test/test_case1.py",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable"
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\okumu\Documents\PyCharmProjects\automationexercise\Test" />
+      <recent name="C:\Users\okumu\Documents\PyCharmProjects\automationexercise\Data" />
+      <recent name="C:\Users\okumu\Documents\PyCharmProjects\automationexercise" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python tests.Python tests for test_case1.TestMain">
     <configuration name="Python tests for Test.test_case1.TestMain" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="automationexercise" />
