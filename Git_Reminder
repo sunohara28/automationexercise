@@ -1,5 +1,6 @@
 Note:
 - Add packages that need to be install in requirement.txt
+  > To updated requirement.txt "pip freeze > requirement.txt"
   > To install packages from requirement.txt "pip install -r requirement.txt"
 - Create a .gitignore and specify all files that should not be included in the git repository
 
