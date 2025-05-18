@@ -25,7 +25,8 @@ jobs:
         python -m pip install --upgrade pip
     - name: Install requirements
       run: |
-        pip install -r requirement.txt
+        pip install pytest
+        pip install selenium
     - name: Test with pytest
       run: |
-        pytest Test/test_pytest1.py
+        pytest test_pytest1.py
