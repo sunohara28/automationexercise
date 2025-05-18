@@ -1,7 +1,7 @@
 from Objects.General_Locator import General_Locators
 from Test.WebDriver import InitDriver
 from Objects.Menu import Menu_Elements
-from Objects.Test_cases import TestCase_Elements
+from Objects.Tcases import TestCase_Elements
 from selenium.common import NoSuchElementException
 
 class TestMain(InitDriver):

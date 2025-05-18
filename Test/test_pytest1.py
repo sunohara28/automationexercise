@@ -1,4 +1,8 @@
-class TestMain:
+from Objects import PytestT
 
-    def test_print(self):
-        print("Hello")
+
+class TestMain:
+    def test_pytest(self):
+        PytestT.hello()
+
+
