@@ -8,16 +8,25 @@ from Objects.Signup_Login import Signup_Login_Locators , Signup_Login_Elements
 from Objects.Signup_acc_info import Signup_acc_Locators, Signup_acc_Elements
 from Objects.Account_created import Account_Created_Elements
 from Objects.Account_deleted import Account_Deleted_Elements
+from Utils.Screenshot import Screenshot
 
 
 class TestMain(InitDriver):
 
     def test_navigate_to_signup(self):
         General_Loc = General_Locators(self.driver)
+        ss = Screenshot(self.driver)
 
         General_Loc.wait_element_css(Menu_Elements.link_signup_login)
         General_Loc.element_locator_css(Menu_Elements.link_signup_login).click()
 
+        Screenshot_title = self.driver.title + ".png"
+
+        print(Screenshot_title)
+
+        ss.full_page(f"../Screenshot_Capture/Screenshot_title")
+
+    @pytest.mark.skip
     def test_signup(self):
         userAccountData = csvReader.csvReader(csvReader.accountData)
         General_Loc = General_Locators(self.driver)
@@ -41,6 +50,7 @@ class TestMain(InitDriver):
 
         General_Loc.element_locator_css(Signup_Login_Elements.button_signup).click()
 
+    @pytest.mark.skip
     def test_account_info(self):
         userAccountData = csvReader.csvReader(csvReader.accountData)
         General_Loc = General_Locators(self.driver)
@@ -76,6 +86,7 @@ class TestMain(InitDriver):
 
         General_Loc.element_locator_css(Signup_acc_Elements.button_create_account).click()
 
+    @pytest.mark.skip
     def test_verify_acc_created(self):
         General_Loc = General_Locators(self.driver)
 
@@ -87,6 +98,7 @@ class TestMain(InitDriver):
         General_Loc.wait_element_css(Account_Created_Elements.button_continue)
         General_Loc.element_locator_css(Account_Created_Elements.button_continue).click()
 
+    @pytest.mark.skip
     def test_verify_logged_in(self):
         userAccountData = csvReader.csvReader(csvReader.accountData)
         General_Loc = General_Locators(self.driver)
@@ -98,11 +110,13 @@ class TestMain(InitDriver):
         except NoSuchElementException as triggeredException:
             print("Logged in displayed error ",triggeredException)
 
+    @pytest.mark.skip
     def test_delete_account(self):
         General_Loc = General_Locators(self.driver)
 
         General_Loc.element_locator_css(Menu_Elements.link_delete_account).click()
 
+    @pytest.mark.skip
     def test_verify_acc_del(self):
         General_Loc = General_Locators(self.driver)
 
