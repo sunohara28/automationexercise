@@ -20,11 +20,12 @@ class TestMain(InitDriver):
         General_Loc.wait_element_css(Menu_Elements.link_signup_login)
         General_Loc.element_locator_css(Menu_Elements.link_signup_login).click()
 
-        Screenshot_title = self.driver.title + ".png"
+        screenshot_title = self.driver.title + ".png"
+        screenshot_name = screenshot_title.replace("/","-")
 
-        print(Screenshot_title)
+        print(screenshot_title)
 
-        ss.full_page(f"../Screenshot_Capture/Screenshot_title")
+        ss.full_page(f"../Screenshot_Capture/{screenshot_name}")
 
     @pytest.mark.skip
     def test_signup(self):
