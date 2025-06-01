@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0dec30d-b8b5-4e5e-a178-f0406ce5439f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/dev_regression_test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/dev_regression_test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/test_unit_menu_navigation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot_Capture/Automation Exercise - Signup - Login.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot_Capture/Screenshot title.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot_Capture/Screenshot_title.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objects/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/Menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/test_unit1.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +92,7 @@
       <recent name="C:\Users\okumu\Documents\PyCharmProjects\automationexercise\Data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_unit1.TestMain">
+  <component name="RunManager">
     <configuration name="Screenshot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="automationexercise" />
       <option name="ENV_FILES" value="" />
@@ -131,6 +130,36 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for Test.test_unit_menu_navigation.TestMain" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="automationexercise" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test_Unit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Test.test_unit_menu_navigation.TestMain&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for Test.test_unit_menu_navigation.TestMain" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="automationexercise" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Test.test_unit_menu_navigation.TestMain&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_case1.TestMain" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="automationexercise" />
       <option name="ENV_FILES" value="" />
@@ -158,21 +187,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_pytest1.TestMain&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_unit1.TestMain" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="automationexercise" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_unit1.TestMain&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -213,15 +227,14 @@
     <list>
       <item itemvalue="Python.Screenshot" />
       <item itemvalue="Python tests.Python tests in test_case1.py" />
-      <item itemvalue="Python tests.Python tests for Test.test_unit1.TestMain" />
-      <item itemvalue="Python tests.Python tests for test_unit1.TestMain" />
+      <item itemvalue="Python tests.Python tests for Test.test_unit_menu_navigation.TestMain" />
       <item itemvalue="Python tests.Python tests for test_case1.TestMain" />
       <item itemvalue="Python tests.Python tests for test_pytest1.TestMain" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_unit1.TestMain" />
-        <item itemvalue="Python tests.Python tests for Test.test_unit1.TestMain" />
+        <item itemvalue="Python tests.Python tests for Test.test_unit_menu_navigation.TestMain" />
+        <item itemvalue="Python tests.Python tests for Test.test_unit_menu_navigation.TestMain" />
         <item itemvalue="Python tests.Python tests for test_case1.TestMain" />
         <item itemvalue="Python.Screenshot" />
         <item itemvalue="Python tests.Python tests for test_pytest1.TestMain" />

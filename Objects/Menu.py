@@ -12,6 +12,7 @@ class Menu_Elements:
     link_delete_account = "a[href='/delete_account']"
     link_contact_us = "a[href='/contact_us']"
     link_test_case = "a[href='/test_cases']"
+    link_api_testing = "a[href='/api_list']"
 
     logged_in_locator = "//li[contains(.,'Logged in')]"
 
