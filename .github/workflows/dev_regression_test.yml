@@ -29,4 +29,4 @@ jobs:
         pip install selenium
     - name: Test with pytest
       run: |
-        python -m pytest Test/test_case1.py -q --browser=Chrome --headless=Yes
+        python -m pytest Test/test_unit1.py -q --browser=Chrome --headless=Yes
