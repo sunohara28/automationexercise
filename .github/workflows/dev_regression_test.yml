@@ -3,8 +3,7 @@ name: Dev Regression Test
 on:
   push:
     branches: [ "dev" ]
-  pull_request:
-    branches: [ "dev" ]
+    paths: ["Objects"]
 
 permissions:
   contents: read
@@ -27,6 +26,6 @@ jobs:
       run: |
         pip install pytest
         pip install selenium
-    - name: Test with pytest
+    - name: Unit Tests
       run: |
         python -m pytest Test/test_unit_menu_navigation.py -q --browser=Chrome --headless=Yes
