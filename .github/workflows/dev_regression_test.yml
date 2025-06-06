@@ -3,7 +3,6 @@ name: Dev Regression Test
 on:
   push:
     branches: [ "dev" ]
-    paths: ["Objects"]
 
 permissions:
   contents: read
