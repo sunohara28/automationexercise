@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0dec30d-b8b5-4e5e-a178-f0406ce5439f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/dev_regression_test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/dev_regression_test.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Objects/Account_created.py" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/Account_created.py" afterDir="false" />
     </list>
