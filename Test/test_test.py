@@ -14,6 +14,8 @@ from Objects.Products import Products_locators
 from Objects.Signup_Login import Signup_Login_Locators
 from Test.WebDriver import InitDriver
 
+def test():
+    ...
 
 def login_account(email, password):
     account_info_fields = [(Signup_Login_Locators.field_login_email, email),
